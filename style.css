@@ -1,0 +1,51 @@
+body {
+     background-color: #0A0F0D /*Outer Space (grey)*/
+}
+/* Add background color. */
+.topnav {
+     overflow: hidden;
+     background-color: #464F51;
+}
+
+/* Style the links inside the navigation bar. */
+.topnav a {
+     float: left;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 14px;
+}
+
+/* Color change when you hover over the button */
+.topnav a:hover {
+     background-color: #53DD6C; /*Paris Green*/
+     color: black;
+}
+
+/* Make the search bar in the center */
+.search-bar input[type=text]{
+     float: none;
+     padding: 10px;
+     background-color: #0A0F0D; /*Outer Space (grey)*/
+     color: white;
+     border-radius: 16px;
+     border-style: solid;
+     border-color: #9D8DF1; /*Bright Lavender*/
+     font-size: 30px;
+}
+
+.search-bar button {
+     border: none;
+     background-color: #5DFDCB; /*Aquamarine*/
+     color: #0A0F0D; /*Smoky Black*/
+     padding: 10px 24px;
+     text-align: center;
+     display: inline-block;
+     font-size: 16px;
+}
+
+.search-bar button:hover {
+     box-shadow: 0 0 15px #FFFFFF;
+}
